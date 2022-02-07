@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3294DFDC27B1809800163AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3294DFDB27B1809800163AED /* AppDelegate.swift */; };
-		3294DFDE27B1809800163AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3294DFDD27B1809800163AED /* ViewController.swift */; };
 		3294DFE027B1809900163AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3294DFDF27B1809900163AED /* Assets.xcassets */; };
 		3294DFE327B1809900163AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3294DFE127B1809900163AED /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,10 @@
 /* Begin PBXFileReference section */
 		3294DFD827B1809800163AED /* Pom Pom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pom Pom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3294DFDB27B1809800163AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3294DFDD27B1809800163AED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3294DFDF27B1809900163AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3294DFE227B1809900163AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3294DFE427B1809900163AED /* Pom_Pom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pom_Pom.entitlements; sourceTree = "<group>"; };
+		3294DFEA27B180B500163AED /* Pom-Pom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pom-Pom-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +51,8 @@
 		3294DFDA27B1809800163AED /* Pom Pom */ = {
 			isa = PBXGroup;
 			children = (
+				3294DFEA27B180B500163AED /* Pom-Pom-Info.plist */,
 				3294DFDB27B1809800163AED /* AppDelegate.swift */,
-				3294DFDD27B1809800163AED /* ViewController.swift */,
 				3294DFDF27B1809900163AED /* Assets.xcassets */,
 				3294DFE127B1809900163AED /* Main.storyboard */,
 				3294DFE427B1809900163AED /* Pom_Pom.entitlements */,
@@ -131,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3294DFDE27B1809800163AED /* ViewController.swift in Sources */,
 				3294DFDC27B1809800163AED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +273,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pom-Pom-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -300,6 +299,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pom-Pom-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
